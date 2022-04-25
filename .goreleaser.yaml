@@ -33,4 +33,3 @@ brews:
   - tap:
       owner: ojizero
       name: homebrew-tap
-    skip_upload: "true"
