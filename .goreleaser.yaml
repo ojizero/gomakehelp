@@ -33,3 +33,4 @@ brews:
   - tap:
       owner: ojizero
       name: homebrew-tap
+    folder: Formula
