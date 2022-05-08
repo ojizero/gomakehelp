@@ -69,10 +69,11 @@ get_binaries() {
     darwin/x86_64) BINARIES="gomakehelp" ;;
     darwin/arm64) BINARIES="gomakehelp" ;;
     linux/386) BINARIES="gomakehelp" ;;
-    linux/amd64) BINARIES="gomakehelp" ;;
+    linux/x86_64) BINARIES="gomakehelp" ;;
     linux/arm64) BINARIES="gomakehelp" ;;
     windows/386) BINARIES="gomakehelp" ;;
     windows/amd64) BINARIES="gomakehelp" ;;
+    windows/x86_64) BINARIES="gomakehelp" ;;
     *)
       log_crit "platform $PLATFORM is not supported.  Make sure this script is up-to-date and file request at https://github.com/${PREFIX}/issues/new"
       exit 1
